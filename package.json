@@ -1,0 +1,21 @@
+{
+  "name": "disneyplus-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/client",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "extends-classes": "^1.0.5",
+    "got": "^11.6.0",
+    "string-template": "^1.0.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
