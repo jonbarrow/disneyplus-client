@@ -1,4 +1,5 @@
 # Disney+ Client
+# Client for interacting with the Disney+ private API
 
 ## All information was acquired by reverse engineering the iOS version of Disney+ on an iPhone 8+ running iOS 14
 
