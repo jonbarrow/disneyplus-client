@@ -22,4 +22,7 @@ client.on('ready', async () => {
 
 	const activeAccount = await client.getCurrentAccount();
 	console.log(activeAccount);
+
+	const searchResults = await client.search('Arist');
+	console.log(searchResults);
 });
