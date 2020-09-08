@@ -19,4 +19,7 @@ client.on('ready', async () => {
 
 	const activeProfile = await client.getActiveUserProfile();
 	console.log(activeProfile);
+
+	const activeAccount = await client.getCurrentAccount();
+	console.log(activeAccount);
 });
