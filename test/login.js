@@ -16,4 +16,7 @@ client.on('ready', async () => {
 	// Get the profiles for the current account
 	const profiles = await client.getUserProfiles();
 	console.log(profiles);
+
+	const activeProfile = await client.getActiveUserProfile();
+	console.log(activeProfile);
 });
