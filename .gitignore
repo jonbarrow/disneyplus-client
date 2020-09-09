@@ -56,3 +56,12 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# custom
+
+# unfinished test script
+test/getPlaybackUrl.js
+
+# mitmproxy stuff
+test/proxy.py
+test/__pycache__
