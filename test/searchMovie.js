@@ -13,12 +13,6 @@ client.on('ready', async () => {
 	await client.exchangeDeviceToken(); // Convert that token into an OAuth token (Disney+ requires an OAuth token even for logging in)
 	await client.login(process.env.DISNEY_PLUS_EMAIL, process.env.DISNEY_PLUS_PASSWORD); // Login the user (this does more stuff under the hood)
 
-	const profiles = await client.getUserProfiles();
-	console.log(profiles);
-
-	const activeProfile = await client.getActiveUserProfile();
-	console.log(activeProfile);
-
-	const activeAccount = await client.getCurrentAccount();
-	console.log(activeAccount);
+	const searchResults = await client.search('The Aristocats');
+	console.log(searchResults.hits[0].hit);
 });
